@@ -7,7 +7,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 def send_message(msg):
-    res = requests.post("http://localhost:8000/chat", json={"message": msg})
+    res = requests.post("https://conversational-ai-agent-master.onrender.com/chat", json={"message": msg})
     return res.json()["response"]
 
 user_input = st.chat_input("Book an appointment...")
