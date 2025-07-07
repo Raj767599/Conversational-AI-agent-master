@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+google-api-python-client
+google-auth
+python-dotenv
+openai
+streamlit
+langchain-google-genai 
+google-generativeai
